@@ -1,0 +1,3 @@
+import type { Metadata } from 'next'; import './globals.css'; import { Navbar } from '@/components/Navbar'; import { CopyProtection } from '@/components/CopyProtection';
+export const metadata: Metadata = { title: 'Ahmed Abdelrheem Mankoola | Data Analyst', description: 'Portfolio of Ahmed Abdelrheem Mankoola, a Data Analyst specializing in Power BI, SQL, Excel, Python, data modeling, ETL, and interactive dashboard development.', openGraph: { title: 'Ahmed Abdelrheem Mankoola | Data Analyst', description: 'Data Analyst portfolio: dashboards, business insights, and data storytelling.', type: 'website' } };
+export default function Layout({children}:{children:React.ReactNode}) { return <html lang="en"><body><CopyProtection/><Navbar/>{children}</body></html> }

@@ -1,0 +1,5 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root { color-scheme: dark; } html { scroll-behavior:smooth; } body { @apply bg-ink text-slate-100 antialiased; background-image: radial-gradient(circle at 75% 0%,rgba(14,116,144,.18),transparent 28rem),linear-gradient(135deg,#07111f,#09182a); } * { box-sizing:border-box; } ::selection { background:#45d9e8; color:#07111f; } .grid-bg { background-image: linear-gradient(rgba(148,163,184,.055) 1px,transparent 1px),linear-gradient(90deg,rgba(148,163,184,.055) 1px,transparent 1px); background-size:36px 36px; } .section { @apply mx-auto max-w-7xl px-5 py-20 md:px-8 md:py-28; } .eyebrow { @apply mb-3 text-sm font-semibold uppercase tracking-[.2em] text-cyan; } .glass { @apply border border-white/10 bg-slate-950/35 backdrop-blur-md; } .focusable { @apply focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-cyan; }
