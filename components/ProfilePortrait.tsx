@@ -54,7 +54,7 @@ export function ProfilePortrait({ compact = false }: { compact?: boolean }) {
         <BarChart3 size={15} className="text-cyan" /> Insight-driven
       </div>
       <div className="absolute -bottom-4 left-8 flex gap-1.5">
-        {["Power BI", "SQL", "Excel", "Python"].map((item) => (
+        {["Power BI", "SQL", "Excel", "Python", "Pandas", "NumPy"].map((item) => (
           <span
             className="rounded border border-cyan/25 bg-ink/80 px-2 py-1 text-[10px] font-semibold text-slate-200 backdrop-blur"
             key={item}

@@ -66,9 +66,7 @@ export default function Home() {
               data-driven decisions.
             </p>
             <p className="mt-5 font-semibold text-cyan">
-              Power BI <span className="text-slate-500">•</span> SQL{" "}
-              <span className="text-slate-500">•</span> Excel{" "}
-              <span className="text-slate-500">•</span> Python
+              Power BI · SQL · Excel · Python · Pandas · NumPy
             </p>
             <div className="mt-8 flex flex-wrap gap-3">
               <a
@@ -276,6 +274,13 @@ export default function Home() {
               >
                 <Phone size={18} />
                 01010852702
+              </a>
+              <a
+                className="focusable flex items-center gap-3 hover:text-cyan"
+                href="tel:01126614751"
+              >
+                <Phone size={18} />
+                01126614751
               </a>
               <a
                 className="focusable flex items-center gap-3 hover:text-cyan"
