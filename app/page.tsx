@@ -245,7 +245,7 @@ export default function Home() {
                   </span>
                 )}
                 <h3 className="mt-1 font-bold">{c.name}</h3>
-                <p className="mt-3 line-clamp-4 text-sm leading-6 text-slate-400">
+                <p className="mt-3 text-sm leading-6 text-slate-400">
                   {c.description}
                 </p>
                 <button
@@ -272,10 +272,10 @@ export default function Home() {
             <div className="mt-8 space-y-4 text-slate-300">
               <a
                 className="focusable flex items-center gap-3 hover:text-cyan"
-                href="tel:01126614751"
+                href="tel:01010852702"
               >
                 <Phone size={18} />
-                01126614751
+                01010852702
               </a>
               <a
                 className="focusable flex items-center gap-3 hover:text-cyan"
