@@ -409,8 +409,18 @@ export default function Home() {
       </section>
 
       <footer className="border-t border-white/[.06] px-5 py-7 text-center text-xs text-slate-500 sm:text-sm">
-        © {new Date().getFullYear()} Ahmed Abdelrheem Mankoola. Designed by POPWAM.
+        © {new Date().getFullYear()} Ahmed Abdelrheem Mankoola. Designed by{" "}
+        <a
+          href="https://popwam.com"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="transition-colors hover:text-slate-300"
+        >
+          POPWAM
+        </a>
+        .
       </footer>
+
     </main>
   );
 }
