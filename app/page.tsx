@@ -417,7 +417,7 @@ export default function Home() {
           className="transition-colors hover:text-slate-300"
         >
           POPWAM
-        </a>
+        </a> 
         .
       </footer>
 
