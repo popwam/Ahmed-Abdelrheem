@@ -409,7 +409,7 @@ export default function Home() {
       </section>
 
       <footer className="border-t border-white/[.06] px-5 py-7 text-center text-xs text-slate-500 sm:text-sm">
-        © {new Date().getFullYear()} Ahmed Abdelrheem Mankoola. Built around data, clarity, and impact.
+        © {new Date().getFullYear()} Ahmed Abdelrheem Mankoola. Designed by POPWAM.
       </footer>
     </main>
   );
